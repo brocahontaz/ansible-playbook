@@ -1,0 +1,21 @@
+---
+- name: "Role: common"
+  hosts: all
+  roles:
+    - common
+  tags:
+    - common
+
+- name: "Role: desktop"
+  hosts: desktop
+  roles:
+    - desktop
+  tags:
+    - desktop
+  
+- name: "Role: larretorre"
+  hosts: larretorre
+  roles:
+    - larretorre
+  tags:
+    - larretorre
